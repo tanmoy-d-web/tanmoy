@@ -1,0 +1,43 @@
+{
+  "name": "iCam Pro – iOS Liquid Glass Camera",
+  "short_name": "iCam Pro",
+  "description": "Ultimate iOS Liquid Glass computational camera with manual Pro controls, 108+ photographic styles, Stamp Studio, and non-destructive photo editor.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "categories": ["photo", "video", "productivity"],
+  "icons": [
+    {
+      "src": "/assets/aistudio/image_1bf2cabe.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/aistudio/image_1bf2cabe.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Take Photo",
+      "url": "/?mode=Photo",
+      "description": "Open camera directly in Photo mode"
+    },
+    {
+      "name": "Pro Camera",
+      "url": "/?mode=Pro",
+      "description": "Open Pro Manual Camera with Focus Peaking"
+    },
+    {
+      "name": "Record Video",
+      "url": "/?mode=Video",
+      "description": "Open 4K 60fps Video Camera"
+    }
+  ]
+}

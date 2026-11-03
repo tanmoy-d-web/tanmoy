@@ -1,0 +1,6 @@
+{
+  "name": "iCam Pro – iOS Liquid Glass Camera",
+  "description": "Ultimate iOS Liquid Glass computational camera, Pro manual controls, 20 photographic styles, Stamp Studio, non-destructive photo/video editor, and native Android CameraX architecture.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
